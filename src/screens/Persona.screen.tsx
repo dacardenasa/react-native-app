@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
 import {Text, View} from 'react-native';
-import {styles} from '../theme/globalTheme';
+import {styles} from '@theme';
 import {StackScreenProps} from '@react-navigation/stack';
-import {RootStackParams} from '../navigator/StackNavigator';
+import {RootStackParams} from '@navigator';
 
 interface Props extends StackScreenProps<RootStackParams, 'PersonaScreen'> {}
 

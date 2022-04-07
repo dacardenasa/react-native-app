@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {Text, View} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
-import {styles} from '../theme/globalTheme';
-import {SettingButton} from '../components/SettingButton/SettingButton';
+import {styles} from '@theme/index';
+import {SettingButton} from '@components/index';
+import {AuthContext} from '@context/index';
 
 export const SettingsScreen = () => {
   /* useSafeAreaInsets hook used to handle SafeAreaView in place we wanted, values: { top, left, bottom, right } */
