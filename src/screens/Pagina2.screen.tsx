@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import {Text, View, Button} from 'react-native';
-import {styles} from '../theme/globalTheme';
+import {styles} from '@theme';
 import {useNavigation} from '@react-navigation/core';
 
 export const Pagina2Screen = () => {

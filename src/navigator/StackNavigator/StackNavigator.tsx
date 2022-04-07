@@ -1,9 +1,9 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
-import {Pagina1Screen} from '../screens/Pagina1.screen';
-import {Pagina2Screen} from '../screens/Pagina2.screen';
-import {Pagina3Screen} from '../screens/Pagina3.screen';
-import {PersonaScreen} from '../screens/Persona.screen';
+import {Pagina1Screen} from '@screens/Pagina1.screen';
+import {Pagina2Screen} from '@screens/Pagina2.screen';
+import {Pagina3Screen} from '@screens/Pagina3.screen';
+import {PersonaScreen} from '@screens/Persona.screen';
 
 /*
  * Data type to allow only routes assigened in this type

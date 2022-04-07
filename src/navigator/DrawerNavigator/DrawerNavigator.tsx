@@ -1,7 +1,7 @@
 import React from 'react';
 import {createDrawerNavigator} from '@react-navigation/drawer';
-import {SettingsScreen} from '../screens/Settings.screen';
-import {StackNavigator} from './StackNavigator';
+import {SettingsScreen} from '@screens/Settings.screen';
+import {StackNavigator} from '@navigator/StackNavigator';
 import {useWindowDimensions} from 'react-native';
 
 const Drawer = createDrawerNavigator();
