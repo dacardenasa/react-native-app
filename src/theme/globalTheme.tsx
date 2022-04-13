@@ -57,4 +57,14 @@ export const styles = StyleSheet.create({
     flexWrap: 'wrap',
     justifyContent: 'center',
   },
+  albumsBox: {
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 8,
+  },
+  albumsBox__Button: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 });
